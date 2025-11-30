@@ -112,7 +112,7 @@ services:
       GITSYNC_PERIOD: "30s"
       GITSYNC_DEPTH: "1"
       GITSYNC_ROOT: "/dags/git-sync"
-      GITSYNC_DEST: "current"
+      GITSYNC_DEST: "repo"
       GITSYNC_LINK: "current"
       GITSYNC_ONE_TIME: "false"
       GITSYNC_ADD_USER: "true"
