@@ -107,7 +107,7 @@ services:
     user: "0:0"    # run as root so it can create /dags/git-sync
     restart: always
     environment:
-      GITSYNC_REPO: "https://github.com/<your-username>/airflow-dags.git"
+      GITSYNC_REPO: "https://github.com/akshaykankaria/airflow-dags.git"
       GITSYNC_BRANCH: "main"           # use BRANCH not REF
       GITSYNC_PERIOD: "30s"
       GITSYNC_DEPTH: "1"
