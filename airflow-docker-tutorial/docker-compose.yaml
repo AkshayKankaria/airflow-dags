@@ -118,8 +118,6 @@ services:
       GITSYNC_ADD_USER: "true"
       GITSYNC_CHANGE_PERMISSIONS: "1"
       GITSYNC_STALE_WORKTREE_TIMEOUT: "24h"
-
-      GITSYNC_SUBDIR: "airflow-docker-tutorial/dags"
     volumes:
       - airflow-dags-volume:/dags
     healthcheck:
